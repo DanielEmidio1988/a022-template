@@ -25,14 +25,35 @@
     padding: 20px;
     margin: 10px 0;
   }
+
+  .fico-centro{
+    text-align: center;
+  }
+
+  .fico-direito{
+position:absolute;
+top: 1200px;
+margin-left: 1050px;
+  }
   
   nav{
     padding: 20px;
     background-color: white;
+    position:sticky;
+    top:0;
+    width: 180;
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
     text-align: center;
+  }
+
+ .fico-verde:active{
+    background-color: green;
+  }
+
+  h3:hover{
+    background-color: yellow;
   }
